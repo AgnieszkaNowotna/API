@@ -1,0 +1,47 @@
+.header{
+    padding:50px;
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(/static/waluty.jpg) 20% 60% no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align:center;
+    background-color: rgba(29, 27, 28, 0.575);
+    width:cover;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding:10px;
+    background-color: rgba(44, 43, 43, 0.308);
+    text-align:center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(192, 191, 191);
+    text-align:center;
+}
+form{
+    margin-top:50px;
+    margin-left:30%;
+    background-color: rgba(44, 43, 43, 0.308);
+    color:white;
+    width: 40%;
+    padding: 10px;
+}
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:10px;
+    text-align: left;
+}
+input {
+    margin: 10px;
+}
+img {
+    text-align: center;
+    width: 400px;
+}

@@ -43,8 +43,8 @@ def exchange():
         for instance in offer:
             if instance.code == code:
                 cost = int(amount) * instance.ask
-
-        return f"Zakup {amount} {code} kosztuje {cost:.2f} PLN"
+                text =f"Zakup {amount} {code} kosztuje {cost:.2f} PLN"
+        return render_template('response.html', text=text)
 
     return render_template('currencies_exchange.html', offer = offer)
 
